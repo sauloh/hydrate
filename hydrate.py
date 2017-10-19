@@ -9,7 +9,8 @@ s = sched.scheduler(time.time, time.sleep)
 Notify.init("Drink")
 notice = Notify.Notification.new(
     'Time to Hydrate',
-    'Take a break and have some water'
+    'Take a break and have some water',
+    None
 )
 
 def showAlert(sc):
