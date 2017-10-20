@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import pgi
+pgi.install_as_gi()
 from gi.repository import Notify
 from gi.repository import Gtk
 import sched, time
