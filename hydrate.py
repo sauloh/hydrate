@@ -12,7 +12,7 @@ from random import randint
 from datetime import datetime, timedelta
 
 MAX_IMAGES = 2
-DELAY = 900  # in seconds
+DELAY = 1200  # in seconds
 PRIORITY = 1
 
 
